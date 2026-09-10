@@ -1,6 +1,6 @@
 # static_re
 
-_10 entries_
+_11 entries_
 
 - **[efiXplorer](https://github.com/REhints/efiXplorer)** ★1128 — IDA/Ghidra plugin for UEFI firmware reverse engineering  
   tags: `daily-ops, lab-usable, paper-repro`  
@@ -37,6 +37,10 @@ _10 entries_
 - **[fwhunt-ida](https://github.com/binarly-io/fwhunt-ida)** ★10 — IDA helper integrating FwHunt with efiXplorer workflows  
   tags: `lab-usable`  
   smoke: Companion to FwHunt
+
+- **[firness](https://github.com/BreakingBoot/firness)** ★4 — FIRNESS — static analysis / harness gen companion to FuzzUEr.  
+  tags: `paper-repro, lab-usable`  
+  smoke: Research companion.
 
 - **[GhidraSMRAMLoader](https://github.com/DSecurity/GhidraSMRAMLoader)** ★2 — Ghidra loader for SMRAM dumps  
   tags: `lab-usable`  

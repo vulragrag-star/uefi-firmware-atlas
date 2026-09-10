@@ -1,6 +1,6 @@
 # emulate_fuzz
 
-_7 entries_
+_9 entries_
 
 - **[qiling](https://github.com/qilingframework/qiling)** ★6093 — Binary emulation framework with UEFI/DXE support  
   tags: `lab-usable, paper-repro, reference-impl`  
@@ -22,10 +22,18 @@ _7 entries_
   tags: `lab-usable`  
   smoke: Niche
 
+- **[FuzzUEr](https://github.com/BreakingBoot/FuzzUEr)** ★19 — FuzzUEr / UEFUZZER — fuzz UEFI interfaces on EDK-2 (NDSS 2025).  
+  tags: `paper-repro, lab-usable`  
+  smoke: Needs EDK2/TSFFS-style setup; research.
+
+- **[HBFA-FL](https://github.com/intel/HBFA-FL)** ★15 — HBFA-FL — host-based firmware analyzer lineage (public Intel path).  
+  tags: `paper-repro, lab-usable`  
+  smoke: Host-based; lab-usable with caveats.
+
 - **[uefi_fuzzer](https://github.com/oscardagrach/uefi_fuzzer)** ★4 — UEFI fuzzer experiments  
   tags: `lab-usable`  
   smoke: Experimental
 
-- **[SmuFuzz (index)](https://sp2026.ieee-security.org/accepted-papers.html)** ★? — S&P 2026 SMM deep fuzzing in full UEFI runtime (index stub).  
+- **[smufuzz](https://github.com/wjqsec/smufuzz)** ★2 — SmuFuzz — deep SMM fuzzing in featured UEFI runtime (S&P 2026).  
   tags: `paper-repro`  
-  smoke: INDEX ONLY — no installable repo verified 2026-09-10.
+  smoke: Heavy deps (LibAFL/EDK2); research-only.

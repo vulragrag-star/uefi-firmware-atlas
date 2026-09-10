@@ -1,6 +1,6 @@
 # offense_poc
 
-_27 entries_
+_28 entries_
 
 - **[EfiGuard](https://github.com/Mattiwatti/EfiGuard)** ★2531 — UEFI bootkit-style PatchGuard/DSE bypass at boot  
   tags: `lab-usable`  
@@ -101,6 +101,10 @@ _27 entries_
 - **[ToolsAndPoCs](https://github.com/binarly-io/ToolsAndPoCs)** ★40 — Binarly tools and PoCs related to firmware vulns  
   tags: `paper-repro, lab-usable`  
   smoke: PoCs
+
+- **[pixiefail](https://github.com/quarkslab/pixiefail)** ★26 — PixieFail — NetworkBoot/IPv6 UEFI vulnerability PoCs.  
+  tags: `paper-repro, lab-usable`  
+  smoke: Lab PoCs; research label.
 
 - **[smm_usbrt_poc](https://github.com/embedi/smm_usbrt_poc)** ★17 — SMM USB RT PoC  
   tags: `paper-repro`  

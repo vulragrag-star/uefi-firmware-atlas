@@ -1,10 +1,14 @@
 # spec
 
-_11 entries_
+_12 entries_
 
 - **[edk2](https://github.com/tianocore/edk2)** ★6238 — QEMU virtual firmware package built from edk2 (OvmfPkg) — artifact layer.  
   tags: `lab-usable, paper-repro, reference-impl`  
   smoke: Build OvmfPkg from edk2 or use distro OVMF with QEMU; do not catalog as separate firmware project.
+
+- **[coreboot](https://github.com/coreboot/coreboot)** ★2788 — coreboot — open host firmware (non-EDK2 path).  
+  tags: `reference-impl, lab-usable`  
+  smoke: Build select boards; fringe.
 
 - **[oreboot](https://github.com/oreboot/oreboot)** ★1797 — Pure-Rust boot firmware.  
   tags: `reference-impl, lab-usable`  
