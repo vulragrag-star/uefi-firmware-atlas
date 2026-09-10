@@ -1,12 +1,11 @@
-# Firmware-atlas series plan
+# Firmware-atlas series
 
-| Repo | Domain | Inclusion core | Status |
+| Repo | Domain | Seed survey | Status |
 |---|---|---|---|
-| [uefi-firmware-atlas](https://github.com/vulragrag-star/uefi-firmware-atlas) | PC/server UEFI/BIOS/PI | EDK2, SMM/DXE/PEI, Secure Boot, LVFS platform capsules | **seeded** |
-| linux-kernel-atlas | Linux kernel security research | syzkaller, KFENCE, KASAN, LKRG, kernel CTF corpora — not distro packaging | planned |
-| iot-firmware-atlas | Embedded Linux device firmwares | router/camera/NAS dumps, binwalk/FACT/EMBA, Firmadyne/FirmAE | planned |
-| rtos-firmware-atlas | RTOS images & tools | FreeRTOS, Zephyr, ThreadX, NuttX analysis | planned |
-| mcu-firmware-atlas | Bare-metal MCU/SoC | Cortex-M/ESP dumps, Ghidra loaders, SVD, Unicorn MCU | planned |
+| [uefi-firmware-atlas](https://github.com/vulragrag-star/uefi-firmware-atlas) | PC/server UEFI/BIOS/PI | river-li / PreOS-Security / … | **live** (tools+papers crawl merged) |
+| [linux-kernel-atlas](https://github.com/vulragrag-star/linux-kernel-atlas) | Linux kernel security | xairy / milabs rootkits / SecWiki / … | **bootstrap** + crawl in flight |
+| [iot-firmware-atlas](https://github.com/vulragrag-star/iot-firmware-atlas) | IoT embedded-Linux FW | fkie-cad awesome-embedded-and-iot / hexsecs / … | **bootstrap** + crawl in flight |
+| [rtos-firmware-atlas](https://github.com/vulragrag-star/rtos-firmware-atlas) | Zephyr/FreeRTOS/ThreadX/NuttX/… | golioth/fkromer Zephyr awesomes (lists thin) | **bootstrap** + crawl in flight |
+| [mcu-firmware-atlas](https://github.com/vulragrag-star/mcu-firmware-atlas) | Bare-metal MCU/SoC | hexsecs / emproof workshop / … | **bootstrap** + crawl in flight |
 
-Each repo copies: TAXONOMY stages (may rename domain-specific), METHOD completeness gates, JSONL schema, SETTING + SMOKE, catalogs render scripts.
-Cross-links only — never merge IoT corpora into the UEFI repo.
+Method for every sibling: **survey existing awesome/index first → fence the domain → JSONL atlas → crawl expand**. Never kitchen-sink across fences.
