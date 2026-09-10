@@ -1,6 +1,10 @@
 # parse
 
-_12 entries_
+_13 entries_
+
+- **[FMMT](https://github.com/tianocore/edk2/tree/master/BaseTools/Source/Python/FMMT)** ★6238 — EDK II  
+  tags: `paper-repro, reference-impl`  
+  smoke: Functionality lives under edk2 BaseTools; edk2-basetools in atlas but FMMT not named
 
 - **[UEFITool](https://github.com/LongSoft/UEFITool)** ★5663 — Cross-platform UEFI firmware image browser/editor/extractor  
   tags: `daily-ops, lab-usable, paper-repro`  

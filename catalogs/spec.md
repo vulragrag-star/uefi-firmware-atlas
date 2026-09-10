@@ -1,6 +1,6 @@
 # spec
 
-_12 entries_
+_13 entries_
 
 - **[edk2](https://github.com/tianocore/edk2)** ★6238 — QEMU virtual firmware package built from edk2 (OvmfPkg) — artifact layer.  
   tags: `lab-usable, paper-repro, reference-impl`  
@@ -25,6 +25,10 @@ _12 entries_
 - **[edk2-platforms](https://github.com/tianocore/edk2-platforms)** ★655 — Platform packages for EDK II.  
   tags: `reference-impl, lab-usable`  
   smoke: Some QEMU platforms buildable.
+
+- **[SeaBIOS](https://github.com/coreboot/seabios)** ★525 — Read-only mirror of https://git.seabios.org/seabios.git. We don't handle pull requests.  
+  tags: `paper-repro, reference-impl`  
+  smoke: Not pure UEFI but central Type-1 bootloader in SoK Table 1
 
 - **[slimbootloader](https://github.com/slimbootloader/slimbootloader)** ★468 — Intel Slim Bootloader minimal firmware.  
   tags: `reference-impl, lab-usable`  

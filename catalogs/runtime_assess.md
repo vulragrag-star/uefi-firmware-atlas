@@ -1,6 +1,6 @@
 # runtime_assess
 
-_12 entries_
+_13 entries_
 
 - **[pcileech](https://github.com/ufrisk/pcileech)** ★7915 — PCIe DMA memory acquisition and attack toolkit  
   tags: `hw-required, paper-repro`  
@@ -21,6 +21,10 @@ _12 entries_
 - **[Check-UEFISecureBootVariables](https://github.com/cjee21/Check-UEFISecureBootVariables)** ★310 — Check Secure Boot related UEFI variables  
   tags: `lab-usable, daily-ops`  
   smoke: Ops
+
+- **[Platbox](https://github.com/IOActive/Platbox)** ★222 — UEFI and SMM Assessment Tool  
+  tags: `paper-repro, lab-usable`  
+  smoke: 
 
 - **[fwtr](https://github.com/farjump/fwtr)** ★151 — Firmware test/runtime related tooling  
   tags: `lab-usable`  

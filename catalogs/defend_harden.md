@@ -1,6 +1,6 @@
 # defend_harden
 
-_18 entries_
+_20 entries_
 
 - **[u-root](https://github.com/u-root/u-root)** ★3071 — Go userland for LinuxBoot-style boot.  
   tags: `lab-usable, reference-impl`  
@@ -73,3 +73,11 @@ _18 entries_
 - **[secure_boot_manager](https://github.com/corthon/secure_boot_manager)** ★5 — Secure Boot management utility  
   tags: `lab-usable`  
   smoke: Ops
+
+- **[GRUB](https://git.savannah.gnu.org/git/grub.git)** ★? — GNU GRUB2 OS bootloader on Secure Boot path (savannah git)  
+  tags: `paper-repro, reference-impl`  
+  smoke: Type-2 bootloader; Secure Boot / BootHole relevance
+
+- **[rustBoot](https://github.com/nihalpasham/rustBoot)** ★? — Pure-Rust secure bootloader cited in SoK github list  
+  tags: `paper-repro, reference-impl`  
+  smoke: 

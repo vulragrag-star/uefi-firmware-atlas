@@ -1,6 +1,6 @@
 # offense_poc
 
-_28 entries_
+_30 entries_
 
 - **[EfiGuard](https://github.com/Mattiwatti/EfiGuard)** ★2531 — UEFI bootkit-style PatchGuard/DSE bypass at boot  
   tags: `lab-usable`  
@@ -74,6 +74,10 @@ _28 entries_
   tags: `lab-usable`  
   smoke: Research
 
+- **[vector-edk](https://github.com/hackedteam/vector-edk)** ★154 — EFI Development Kit  
+  tags: `paper-repro, lab-usable`  
+  smoke: 
+
 - **[SmmExploit](https://github.com/tandasat/SmmExploit)** ★149 — Educational SMM exploit samples  
   tags: `lab-usable, paper-repro`  
   smoke: Lab
@@ -113,3 +117,7 @@ _28 entries_
 - **[bootlicker](https://github.com/coldfusion39/bootlicker)** ★8 — UEFI bootkit-style research project  
   tags: `lab-usable`  
   smoke: Research
+
+- **[dreamboot](https://github.com/quarkslab/dreamboot)** ★? — Quarkslab UEFI bootkit (cited in UEFI ATT&CK-like SoK)  
+  tags: `paper-repro, lab-usable`  
+  smoke: 

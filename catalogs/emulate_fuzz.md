@@ -1,6 +1,6 @@
 # emulate_fuzz
 
-_9 entries_
+_12 entries_
 
 - **[qiling](https://github.com/qilingframework/qiling)** ★6093 — Binary emulation framework with UEFI/DXE support  
   tags: `lab-usable, paper-repro, reference-impl`  
@@ -37,3 +37,15 @@ _9 entries_
 - **[smufuzz](https://github.com/wjqsec/smufuzz)** ★2 — SmuFuzz — deep SMM fuzzing in featured UEFI runtime (S&P 2026).  
   tags: `paper-repro`  
   smoke: Heavy deps (LibAFL/EDK2); research-only.
+
+- **[EXCITE](None)** ★? — Intel EXCITE: symbolic execution / Simics for SMI callouts (WOOT'15 + Engblom'19)  
+  tags: `paper-repro`  
+  smoke: Paper entries exist; Intel research tool, no public GitHub
+
+- **[RSFuzzer](None)** ★? — Hybrid SMI handler fuzzer (IEEE S&P'23); cornerstone SMM fuzzing work  
+  tags: `paper-repro`  
+  smoke: Paper in atlas; not publicly released per SoK notes
+
+- **[SimFuzzer](None)** ★? — UEFI firmware fuzzing with Simics (DAC'20 Yang/Zimmer); TSFFS precursor  
+  tags: `paper-repro`  
+  smoke: No public tool repo; superseded functionally by intel/tsffs already in atlas

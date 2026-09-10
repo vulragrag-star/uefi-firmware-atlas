@@ -1,6 +1,6 @@
 # static_re
 
-_11 entries_
+_14 entries_
 
 - **[efiXplorer](https://github.com/REhints/efiXplorer)** ★1128 — IDA/Ghidra plugin for UEFI firmware reverse engineering  
   tags: `daily-ops, lab-usable, paper-repro`  
@@ -45,3 +45,15 @@ _11 entries_
 - **[GhidraSMRAMLoader](https://github.com/DSecurity/GhidraSMRAMLoader)** ★2 — Ghidra loader for SMRAM dumps  
   tags: `lab-usable`  
   smoke: Niche SMM RE
+
+- **[SPENDER](None)** ★? — Protocol-centric SMM privilege-escalation finder (IEEE S&P'22); core SMM static tool in SoKs  
+  tags: `paper-repro`  
+  smoke: Paper in atlas; closed-source / no public artifact
+
+- **[STASE](None)** ★? — Static Analysis Guided Symbolic Execution for UEFI (ASE'24); comparison-table BSP tool  
+  tags: `paper-repro`  
+  smoke: Paper in atlas; no public code per papers.jsonl
+
+- **[SymUEFI](None)** ★? — Table-3 name for Bazhaniuk et al. WOOT'15 BIOS symbolic execution (EXCITE lineage)  
+  tags: `paper-repro`  
+  smoke: Likely alias of EXCITE/WOOT15 work; no standalone public repo
