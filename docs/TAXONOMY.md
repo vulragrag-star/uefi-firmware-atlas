@@ -19,3 +19,14 @@ paper-repro | daily-ops | lab-usable | hw-required | dataset | reference-impl
 3. Expand via paper artifact links
 4. Dedup; reject out-of-domain
 5. Smoke-test lab-usable subset on Linux VM
+
+
+## Named stacks (orthogonal to closed-loop stages)
+
+Some ecosystems are trees, not flat tool lists. Use optional JSONL fields:
+
+- `stack` — e.g. `edk2`
+- `stack_role` — `core` | `platforms` | `build_tool` | `test` | `runtime_lib` | `qemu_artifact` | `satellite` | `deprecated`
+- `stack_parent` — id of the parent entry in the same stack
+
+Human tree: [`docs/stacks/EDK2.md`](stacks/EDK2.md).

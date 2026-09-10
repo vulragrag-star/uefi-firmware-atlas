@@ -30,7 +30,7 @@ flowchart LR
   lab_teaching --- runtime_assess
 ```
 
-See [`docs/MAP.md`](docs/MAP.md), [`docs/TAXONOMY.md`](docs/TAXONOMY.md), [`docs/SETTING.md`](docs/SETTING.md), [`docs/SMOKE.md`](docs/SMOKE.md).
+See [`docs/MAP.md`](docs/MAP.md), [`docs/TAXONOMY.md`](docs/TAXONOMY.md), [`docs/SETTING.md`](docs/SETTING.md), [`docs/SMOKE.md`](docs/SMOKE.md), EDK2 hierarchy [`docs/stacks/EDK2.md`](docs/stacks/EDK2.md) / [`catalogs/stack-edk2.md`](catalogs/stack-edk2.md).
 
 ## Layout
 | Path | Role |
@@ -59,14 +59,14 @@ python scripts/render_catalogs.py
 | acquire | 4 |
 | defend_harden | 5 |
 | emulate_fuzz | 4 |
-| lab_teaching | 2 |
+| lab_teaching | 10 |
 | offense_poc | 4 |
 | parse | 3 |
 | runtime_assess | 4 |
-| spec | 5 |
+| spec | 8 |
 | static_re | 8 |
 | vuln_intel | 1 |
-| **total** | **40** |
+| **total** | **51** |
 
 
 ## License

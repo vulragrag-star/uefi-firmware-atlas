@@ -2,30 +2,149 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "FirmwareAtlasEntry",
   "type": "object",
-  "required": ["id", "name", "url", "closed_loop_stage", "use_tags", "one_line", "why_in_scope"],
+  "required": [
+    "id",
+    "name",
+    "url",
+    "closed_loop_stage",
+    "use_tags",
+    "one_line",
+    "why_in_scope"
+  ],
   "properties": {
-    "id": {"type": "string"},
-    "name": {"type": "string"},
-    "url": {"type": "string"},
-    "stars": {"type": ["integer", "null"]},
-    "last_push": {"type": ["string", "null"]},
-    "license": {"type": ["string", "null"]},
-    "language": {"type": ["string", "null"]},
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "stars": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "last_push": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "license": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "language": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
     "closed_loop_stage": {
       "type": "string",
-      "enum": ["spec", "acquire", "parse", "static_re", "emulate_fuzz", "runtime_assess", "offense_poc", "defend_harden", "vuln_intel", "dataset", "paper_map", "lab_teaching"]
+      "enum": [
+        "spec",
+        "acquire",
+        "parse",
+        "static_re",
+        "emulate_fuzz",
+        "runtime_assess",
+        "offense_poc",
+        "defend_harden",
+        "vuln_intel",
+        "dataset",
+        "paper_map",
+        "lab_teaching"
+      ]
     },
     "use_tags": {
       "type": "array",
-      "items": {"type": "string", "enum": ["paper-repro", "daily-ops", "lab-usable", "hw-required", "dataset", "reference-impl"]}
+      "items": {
+        "type": "string",
+        "enum": [
+          "paper-repro",
+          "daily-ops",
+          "lab-usable",
+          "hw-required",
+          "dataset",
+          "reference-impl"
+        ]
+      }
     },
-    "one_line": {"type": "string"},
-    "why_in_scope": {"type": "string"},
-    "related_papers": {"type": "array", "items": {"type": "string"}},
-    "related_cves": {"type": "array", "items": {"type": "string"}},
-    "related_datasets": {"type": "array", "items": {"type": "string"}},
-    "smoke_notes": {"type": ["string", "null"]},
-    "sources": {"type": "array", "items": {"type": "string"}},
-    "fringe": {"type": "boolean"}
+    "one_line": {
+      "type": "string"
+    },
+    "why_in_scope": {
+      "type": "string"
+    },
+    "related_papers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_cves": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_datasets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "smoke_notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fringe": {
+      "type": "boolean"
+    },
+    "stack": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Named software stack (e.g. edk2). Optional."
+    },
+    "stack_role": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "core",
+        "platforms",
+        "build_tool",
+        "test",
+        "runtime_lib",
+        "qemu_artifact",
+        "satellite",
+        "deprecated",
+        null
+      ]
+    },
+    "stack_parent": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Parent entry id within the same stack."
+    }
   }
 }

@@ -1,0 +1,3 @@
+{"id": "mixup_ovmf_as_core", "url": "https://github.com/tianocore/edk2/tree/master/OvmfPkg", "reason": "OVMF is qemu_artifact under edk2 core — never promote to stack_role=core"}
+{"id": "mixup_pytools_as_parse", "url": "https://github.com/tianocore/edk2-pytool-library", "reason": "pytool-* are build_tool layer — not UEFITool/fiano-class parsers"}
+{"id": "mixup_edk2test_as_chipsec", "url": "https://github.com/tianocore/edk2-test", "reason": "edk2-test is SCT/host test infra — not runtime_assess like CHIPSEC"}
