@@ -8,7 +8,7 @@ Full tree: [`docs/stacks/EDK2.md`](../docs/stacks/EDK2.md).
 ## `core` (1)
 
 - **[edk2](https://github.com/tianocore/edk2)** ★6238 · stage `spec` · parent `—`  
-  EDK II reference open UEFI implementation.
+  QEMU virtual firmware package built from edk2 (OvmfPkg) — artifact layer.
 
 
 ## `platforms` (1)
@@ -17,10 +17,13 @@ Full tree: [`docs/stacks/EDK2.md`](../docs/stacks/EDK2.md).
   Platform packages for EDK II.
 
 
-## `qemu_artifact` (1)
+## `qemu_artifact` (2)
+
+- **[qemu-ovmf-secureboot](https://github.com/rhuefi/qemu-ovmf-secureboot)** ★94 · stage `lab_teaching` · parent `edk2_ovmfpkg`  
+  Helpers to enroll Secure Boot keys in OVMF/QEMU
 
 - **[OVMF (OvmfPkg)](https://github.com/tianocore/edk2/tree/master/OvmfPkg)** ★? · stage `lab_teaching` · parent `tianocore_edk2`  
-  QEMU virtual firmware package built from edk2 (OvmfPkg) — artifact layer.
+  QEMU virtual firmware package built from edk2 (OvmfPkg).
 
 
 ## `runtime_lib` (1)

@@ -1,19 +1,27 @@
 # emulate_fuzz
 
-_4 entries_
+_6 entries_
 
-- **[qiling](https://github.com/qilingframework/qiling)** ★6093 — Binary emulation with EFI mode.  
+- **[qiling](https://github.com/qilingframework/qiling)** ★6093 — Binary emulation framework with UEFI/DXE support  
+  tags: `lab-usable, paper-repro, reference-impl`  
+  smoke: Not UEFI-only but critical dependency
+
+- **[tsffs](https://github.com/intel/tsffs)** ★331 — Snapshot/fuzz framework for SIMICS targeting firmware  
+  tags: `lab-usable, paper-repro, reference-impl`  
+  smoke: SIMICS-oriented; powerful but heavy setup
+
+- **[efi_fuzz](https://github.com/Sentinel-One/efi_fuzz)** ★154 — Coverage-guided UEFI DXE protocol fuzzer (Qiling-based)  
   tags: `lab-usable, paper-repro`  
-  smoke: EFI demos on Linux VM.
+  smoke: Needs Qiling; good paper-repro target; ARCHIVED
 
-- **[tsffs](https://github.com/intel/tsffs)** ★331 — SIMICS snapshot coverage-guided fuzzer.  
-  tags: `paper-repro, hw-required`  
-  smoke: Needs SIMICS.
-
-- **[efi_fuzz](https://github.com/Sentinel-One/efi_fuzz)** ★154 — Coverage-guided NVRAM fuzzer (Qiling-based).  
-  tags: `paper-repro, lab-usable`  
-  smoke: Needs harness setup.
-
-- **[efi_dxe_emulator](https://github.com/assafcarlsbad/efi_dxe_emulator)** ★88 — Simple emulator for UEFI DXE files.  
+- **[efi_dxe_emulator](https://github.com/assafcarlsbad/efi_dxe_emulator)** ★88 — Emulator for UEFI DXE modules  
   tags: `lab-usable, paper-repro`  
-  smoke: VM-friendly.
+  smoke: Research emulator
+
+- **[ebcvm](https://github.com/yabits/ebcvm)** ★82 — EFI Byte Code virtual machine  
+  tags: `lab-usable`  
+  smoke: Niche
+
+- **[uefi_fuzzer](https://github.com/oscardagrach/uefi_fuzzer)** ★4 — UEFI fuzzer experiments  
+  tags: `lab-usable`  
+  smoke: Experimental

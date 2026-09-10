@@ -48,25 +48,29 @@ python scripts/render_catalogs.py
 ```
 
 ## Status (initial seed — 2026-09-10)
-- Tools JSONL seeded from curated core + upstream awesome lists (enrichment ongoing via multi-agent crawl)
-- Papers / vulns / datasets: starter rows (BlackLotus, LoJax, MoonBounce, CosmicStrand, Bootkitty, LogoFAIL, FUZZUER, CHIPSEC, FwHunt, DVUEFI, LVFS)
+- Tools JSONL: **143** entries (seed + multi-agent crawl merge; EDK2 stack hierarchy preserved)
+- Papers / vulns / datasets: **71** / **22** / **12** (crawl 2026-09-10)
 - Smoke: documented green/yellow/red paths for Linux cloud VMs (no SPI/DMA fantasy)
 
 ### Tool counts by stage
 
 | Stage | n |
 |---|---|
-| acquire | 4 |
-| defend_harden | 5 |
-| emulate_fuzz | 4 |
-| lab_teaching | 10 |
-| offense_poc | 4 |
-| parse | 3 |
-| runtime_assess | 4 |
-| spec | 8 |
-| static_re | 8 |
-| vuln_intel | 1 |
-| **total** | **51** |
+| acquire | 5 |
+| dataset | 1 |
+| defend_harden | 18 |
+| emulate_fuzz | 6 |
+| lab_teaching | 29 |
+| offense_poc | 27 |
+| paper_map | 7 |
+| parse | 12 |
+| runtime_assess | 12 |
+| spec | 11 |
+| static_re | 10 |
+| vuln_intel | 5 |
+| **total** | **143** |
+
+Also: **71** papers/talks · **22** vulns/bootkits · **12** datasets (see `docs/PAPERS_SUMMARY.md`).
 
 
 ## License

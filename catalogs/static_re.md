@@ -1,35 +1,43 @@
 # static_re
 
-_8 entries_
+_10 entries_
 
-- **[efiXplorer](https://github.com/REhints/efiXplorer)** ★1128 — IDA plugin/loader for UEFI RE automation.  
-  tags: `lab-usable, paper-repro, daily-ops`  
-  smoke: Needs IDA.
+- **[efiXplorer](https://github.com/REhints/efiXplorer)** ★1128 — IDA/Ghidra plugin for UEFI firmware reverse engineering  
+  tags: `daily-ops, lab-usable, paper-repro`  
+  smoke: IDA Pro plugin; Ghidra port available via forks
 
-- **[ghidra-firmware-utils](https://github.com/al3xtjames/ghidra-firmware-utils)** ★495 — Ghidra utilities for firmware.  
-  tags: `lab-usable`  
-  smoke: Ghidra on VM.
+- **[ghidra-firmware-utils](https://github.com/al3xtjames/ghidra-firmware-utils)** ★495 — Ghidra scripts/loaders for UEFI firmware volumes  
+  tags: `lab-usable, daily-ops`  
+  smoke: FV/FFS loaders
 
-- **[uefireverse](https://github.com/jethrogb/uefireverse)** ★407 — UEFI reverse notes/tools.  
+- **[uefireverse](https://github.com/jethrogb/uefireverse)** ★407 — Tools/notes from classic UEFI reverse engineering writeups  
   tags: `lab-usable, paper-repro`  
-  smoke: Offline.
+  smoke: Pairs with jbeekman writeups
 
-- **[efiSeek](https://github.com/DSecurity/efiSeek)** ★406 — Ghidra plugin for UEFI binaries.  
+- **[efiSeek](https://github.com/DSecurity/efiSeek)** ★406 — Ghidra analyzer for UEFI modules (protocols/guids)  
+  tags: `lab-usable, daily-ops`  
+  smoke: Ghidra extension
+
+- **[uefi_retool](https://github.com/yeggor/uefi_retool)** ★368 — IDA scripts/tools for UEFI reverse engineering  
   tags: `lab-usable`  
-  smoke: Ghidra on VM.
+  smoke: IDA-oriented; ARCHIVED
 
-- **[uefi_retool](https://github.com/yeggor/uefi_retool)** ★368 — UEFI reverse-engineering helpers.  
-  tags: `lab-usable, paper-repro`  
-  smoke: Scripts + dumps on VM.
+- **[fwhunt-scan](https://github.com/binarly-io/fwhunt-scan)** ★244 — Scanner that applies FwHunt rules to firmware images  
+  tags: `daily-ops, lab-usable`  
+  smoke: Works with FwHunt rules + UEFITool-like parse
 
-- **[fwhunt-scan](https://github.com/binarly-io/fwhunt-scan)** ★244 — Scanner applying FwHunt rules to UEFI images.  
-  tags: `lab-usable, paper-repro, daily-ops`  
-  smoke: Docker/python on dumped firmware.
-
-- **[brick](https://github.com/Sentinel-One/brick)** ★99 — IDA static vulnerability scanner for UEFI.  
-  tags: `lab-usable, paper-repro`  
-  smoke: Needs IDA.
-
-- **[efi-resolver](https://github.com/Vector35/efi-resolver)** ★38 — Binary Ninja UEFI plugin.  
+- **[efi-resolver](https://github.com/Vector35/efi-resolver)** ★38 — Binary Ninja plugin for UEFI protocol/guid resolution  
   tags: `lab-usable`  
-  smoke: Needs Binary Ninja.
+  smoke: Binary Ninja; ARCHIVED
+
+- **[efi-inspector](https://github.com/zznop/efi-inspector)** ★12 — Static inspection helpers for EFI binaries  
+  tags: `lab-usable`  
+  smoke: RE aid
+
+- **[fwhunt-ida](https://github.com/binarly-io/fwhunt-ida)** ★10 — IDA helper integrating FwHunt with efiXplorer workflows  
+  tags: `lab-usable`  
+  smoke: Companion to FwHunt
+
+- **[GhidraSMRAMLoader](https://github.com/DSecurity/GhidraSMRAMLoader)** ★2 — Ghidra loader for SMRAM dumps  
+  tags: `lab-usable`  
+  smoke: Niche SMM RE
