@@ -1,0 +1,3 @@
+{"id": "fwhunt-rules", "name": "FwHunt rules", "url": "https://github.com/binarly-io/FwHunt", "access": "public", "use_tags": ["dataset", "paper-repro"]}
+{"id": "dvuefi", "name": "DVUEFI", "url": "https://github.com/hacking-support/DVUEFI", "access": "public", "use_tags": ["dataset", "lab-teaching", "paper-repro"]}
+{"id": "lvfs", "name": "LVFS", "url": "https://fwupd.org", "access": "public-metadata; images per vendor license", "use_tags": ["dataset", "daily-ops"]}

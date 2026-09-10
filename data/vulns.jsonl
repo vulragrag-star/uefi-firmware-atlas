@@ -1,0 +1,6 @@
+{"id": "blacklotus", "name": "BlackLotus", "year": 2023, "kind": "bootkit", "refs": ["https://www.welivesecurity.com/2023/03/01/blacklotus-uefi-bootkit-myth-confirmed/"], "related_tools": ["binarly-io/FwHunt", "binarly-io/fwhunt-scan"]}
+{"id": "lojax", "name": "LoJax", "year": 2018, "kind": "bootkit", "refs": ["https://www.welivesecurity.com/2018/09/27/lojax-first-uefi-rootkit-found-wild-courtesy-sednit-group/"], "related_tools": []}
+{"id": "moonbounce", "name": "MoonBounce", "year": 2022, "kind": "bootkit", "refs": ["https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/"], "related_tools": []}
+{"id": "cosmicstrand", "name": "CosmicStrand", "year": 2022, "kind": "bootkit", "refs": ["https://securelist.com/cosmicstrand-uefi-firmware-rootkit/106973/"], "related_tools": []}
+{"id": "bootkitty", "name": "Bootkitty", "year": 2024, "kind": "bootkit", "refs": ["https://www.welivesecurity.com/en/eset-research/bootkitty-analyzing-first-uefi-bootkit-linux/"], "related_tools": []}
+{"id": "logofail", "name": "LogoFAIL", "year": 2023, "kind": "vuln-class", "refs": ["https://binarly.io/posts/LogoFAIL/"], "related_tools": ["binarly-io/FwHunt"]}

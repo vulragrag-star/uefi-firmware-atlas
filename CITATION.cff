@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: uefi-firmware-atlas
+message: If you use this atlas, please cite it.
+type: dataset
+authors:
+  - family-names: Wang
+    given-names: Jason
+repository-code: https://github.com/vulragrag-star/uefi-firmware-atlas
+license: CC-BY-4.0

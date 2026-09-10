@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FirmwareAtlasEntry",
+  "type": "object",
+  "required": ["id", "name", "url", "closed_loop_stage", "use_tags", "one_line", "why_in_scope"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "url": {"type": "string"},
+    "stars": {"type": ["integer", "null"]},
+    "last_push": {"type": ["string", "null"]},
+    "license": {"type": ["string", "null"]},
+    "language": {"type": ["string", "null"]},
+    "closed_loop_stage": {
+      "type": "string",
+      "enum": ["spec", "acquire", "parse", "static_re", "emulate_fuzz", "runtime_assess", "offense_poc", "defend_harden", "vuln_intel", "dataset", "paper_map", "lab_teaching"]
+    },
+    "use_tags": {
+      "type": "array",
+      "items": {"type": "string", "enum": ["paper-repro", "daily-ops", "lab-usable", "hw-required", "dataset", "reference-impl"]}
+    },
+    "one_line": {"type": "string"},
+    "why_in_scope": {"type": "string"},
+    "related_papers": {"type": "array", "items": {"type": "string"}},
+    "related_cves": {"type": "array", "items": {"type": "string"}},
+    "related_datasets": {"type": "array", "items": {"type": "string"}},
+    "smoke_notes": {"type": ["string", "null"]},
+    "sources": {"type": "array", "items": {"type": "string"}},
+    "fringe": {"type": "boolean"}
+  }
+}
