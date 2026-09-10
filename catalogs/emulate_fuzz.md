@@ -1,6 +1,6 @@
 # emulate_fuzz
 
-_6 entries_
+_7 entries_
 
 - **[qiling](https://github.com/qilingframework/qiling)** ★6093 — Binary emulation framework with UEFI/DXE support  
   tags: `lab-usable, paper-repro, reference-impl`  
@@ -25,3 +25,7 @@ _6 entries_
 - **[uefi_fuzzer](https://github.com/oscardagrach/uefi_fuzzer)** ★4 — UEFI fuzzer experiments  
   tags: `lab-usable`  
   smoke: Experimental
+
+- **[SmuFuzz (index)](https://sp2026.ieee-security.org/accepted-papers.html)** ★? — S&P 2026 SMM deep fuzzing in full UEFI runtime (index stub).  
+  tags: `paper-repro`  
+  smoke: INDEX ONLY — no installable repo verified 2026-09-10.
